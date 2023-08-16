@@ -10,45 +10,76 @@ body {
     color: var(--branco);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    margin: 0;
     width: 100%;
 }
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.botao {
+    background-color: var(--amarelo-botao);
+    width: 10em;
+    padding: 0.5em 0.3em;
+    border-radius: 10px;
+    color: var(--branco);
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+}
+
+.titulo {
+    color: var(--amarelo-botao);
+    font-size: 4em;
+    font-weight: bold;
+}
+
 
 .principal {
     display: flex;
     height: 100vh;
 }
 
-
-.principal-container {
+.principal__container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin:0 10vw;
+    margin:0 10%;
 }
 
 .principal__nome {
     font-weight: 700;
 }
 
-.principal-infos {
+.principal__img {
+    width: 40%;
+}
+
+.principal__infos {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 30vh; 
+    margin-bottom: 30%; 
 }
 
-.botao {
-    background-color: var(--amarelo-botao);
-    margin: 3em 0;
-    width: 10em;
-    padding: 0.5em 0.3em;
-    border-radius: 10px;
-    color: var(--branco);
-    font-size: 1em;
+.principal__infos__introducao {
+    font-size: clamp(1vmax, 1.5vmax, 1.5vmax);
+    margin-bottom: 0.1em;
 }
 
-.principal-cabecalho {
+.principal__infos__titulo {
+    font-size: clamp(1vmax, 2vmax, 2vmax);;
+    margin-bottom: 0.1em;
+}
+
+.principal__infos__botao {
+    margin: 5vh 0;
+}
+
+.principal__cabecalho {
     display: flex;
     width: 100%;
     justify-content: flex-end;
@@ -56,57 +87,119 @@ body {
     margin-top: 10vh;
 }
 
-.principal-cabecalho a {
+.cabecalho__botao {
+    background-color: var(--cinza-claro);
+    border-radius: 50%;
+    padding: 1vh;
     color: var(--branco);
     text-decoration: none;
     margin-right: 1em;
 }
 
-.principal__img {
-    width: 40%;
-}
-
-.principal-cabecalho__home {
-    background-color: var(--amarelo-botao);
-    padding: 0.5em 2em;
-    border-radius: 50px;
-}
-
-.principal-cabecalho__botao {
-    background-color: var(--cinza-claro);
-    border-radius: 100px;
-    padding: 0.5em 0.7em;
-}
-
-.sobre {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: space-between;
-    padding: 2em 0;
-    margin-left: 10em;
-}
-
 .sobre__imagem {
-    width: 45%;
+    width: 40%;
+    align-self: center;
 }
 
-.sobre__infos-titulo {
-    color: var(--amarelo-botao);
-    font-size: 3em;
-    font-weight: bold;
-    margin-bottom: 0.5em;
+.sobre__infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.sobre__infos-lista__elemento {
-    margin-bottom: 2em;
+.sobre__infos__lista__elemento {
+    margin: 2.5vh 0;
 }
 
-.lista-elemento__titulo {
+.sobre__infos__lista__elemento__titulo {
     color: var(--cinza-clarinho);
+    font-size: 1.3em;
 }
 
-.lista-elemento__conteudo {
-    margin-top: 0.2em;
-    font-size: 1.5em;
+.sobre__infos__lista__elemento__conteudo {
+    margin-top: 0.2em;  
+    font-size: 2em;
 }
+
+.portfolio__infos {
+    width: 90%;
+}
+
+.portfolio__imagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5vh;
+}
+
+.portfolio__imagem {
+    width: 100%;
+}
+
+.portfolio__titulo {
+    margin-bottom: 5%;
+}
+
+.portfolio__botoes {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.portfolio__botao {
+    text-decoration: none;
+    font-size: clamp(1vmin, 2.5vmin, 2.5vmin);
+    color: var(--cinza-clarinho);
+    margin-left: 1vw;
+}
+
+.portfolio__botao-principal {
+    margin-top: 5vh;
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10%;
+    width: 90%;
+    margin-top: 5vh;
+}
+
+.habilidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.habilidade__imagem {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.habilidade__titulo {
+    color: var(--cinza-clarinho);
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+.habilidade__nivel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(0.5vmin, 1vmin, 1vmin);
+    margin-top: 1vh;
+    column-gap: 0.5vh;
+}
+
+.habilidade:hover .habilidade__imagem {
+    filter: grayscale(0%);
+}
+
+.habilidade:hover .habilidade__nivel {
+    color: var(--amarelo-botao);
+}
+
+.habilidade:hover .habilidade__titulo {
+    color: var(--amarelo-botao);
+}
+
