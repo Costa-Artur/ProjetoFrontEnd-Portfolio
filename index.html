@@ -11,60 +11,202 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c8a9f7ab0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main class="principal">
         <img src="./images/ragnar-capa.jpg" alt="" class="principal__img">
-        <section class="principal-container">
-            <div class="principal-cabecalho">
-                <a href="#" class="principal-cabecalho__home">HOME</a>
-                <a href="#" class="principal-cabecalho__botao"> a</a>
-                <a href="#" class="principal-cabecalho__botao">a</a>
-                <a href="#" class="principal-cabecalho__botao">a</a>
-                <a href="#" class="principal-cabecalho__botao">a</a>
-                <a href="#" class="principal-cabecalho__botao">a</a>
-                <a href="#" class="principal-cabecalho__botao">a</a>
-            </div>
-            <div class="principal-infos">
-                <p class="principal-infos__introducao">OLÁ!</p>
-                <h1 class="principal-infos__titulo">EU SOU <i class="principal__nome">RAGNAR LOTHBROOK</i> </h1>
-                <p class="principal-infos__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id nisl a tortor tristique venenatis malesuada eu tellus. In a ex ac purus dapibus ultricies aliquam id elit. Vivamus non cursus urna, in placerat lorem. Nunc enim nisi, tempor sit amet neque eget, tempus eleifend ante. Etiam sed tristique lectus. Nunc at orci a neque aliquam rhoncus non ac arcu. Phasellus eget massa quis dui finibus auctor.</p>
-                <input type="button" value="MAIS" class="principal-infos__botao botao">
+        <section class="principal__container">
+            <nav class="principal__cabecalho">
+                <a href="#" class="cabecalho__botao">a</a>
+                <a href="#" class="cabecalho__botao">a</a>
+                <a href="#" class="cabecalho__botao">a</a>
+                <a href="#" class="cabecalho__botao">a</a>
+                <a href="#" class="cabecalho__botao">a</a>
+                <a href="#" class="cabecalho__botao">a</a>
+                <a href="#" class="cabecalho__botao">a</a>
+            </nav>
+            <div class="principal__infos">
+                <p class="principal__infos__introducao">OLÁ!</p>
+                <h1 class="principal__infos__titulo">EU SOU <i class="principal__nome">RAGNAR LOTHBROOK</i> </h1>
+                <p class="principal__infos__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id nisl a tortor tristique venenatis malesuada eu tellus. In a ex ac purus dapibus ultricies aliquam id elit. Vivamus non cursus urna, in placerat lorem. Nunc enim nisi, tempor sit amet neque eget, tempus eleifend ante. Etiam sed tristique lectus. Nunc at orci a neque aliquam rhoncus non ac arcu. Phasellus eget massa quis dui finibus auctor.</p>
+                <input type="button" value="MAIS" class="principal__infos__botao botao">
             </div>
         </section>
     </main>
 
-    <section class="sobre">
+    <section class="sobre secao">
+        <div class="sobre__titulo">
+            <h2 class="titulo">| SOBRE</h2>
+        </div>
         <div class="sobre__infos">
-            <h2 class="sobre__infos-titulo">| SOBRE</h2>
-            <ul class="sobre__infos-lista">
-                <li class="sobre__infos-lista__elemento">
-                    <p class="lista-elemento__titulo">NOME</p>
-                    <p class="lista-elemento__conteudo">ARTUR COSTA</p>
+            <ul class="sobre__infos__lista">
+                <li class="sobre__infos__lista__elemento">
+                    <p class="sobre__infos__lista__elemento__titulo">NOME</p>
+                    <p class="sobre__infos__lista__elemento__conteudo">ARTUR COSTA</p>
                 </li>
-                <li class="sobre__infos-lista__elemento">
-                    <p class="lista-elemento__titulo">IDADE</p>
-                    <p class="lista-elemento__conteudo">18</p>
+                <li class="sobre__infos__lista__elemento">
+                    <p class="sobre__infos__lista__elemento__titulo">IDADE</p>
+                    <p class="sobre__infos__lista__elemento__conteudo">18</p>
                 </li>
-                <li class="sobre__infos-lista__elemento">
-                    <p class="lista-elemento__titulo">PROFISSÃO</p>
-                    <p class="lista-elemento__conteudo">KKK</p>
+                <li class="sobre__infos__lista__elemento">
+                    <p class="sobre__infos__lista__elemento__titulo">PROFISSÃO</p>
+                    <p class="sobre__infos__lista__elemento__conteudo">KKKK</p>
                 </li>
-                <li class="sobre__infos-lista__elemento">
-                    <p class="lista-elemento__titulo">NATURALIDADE</p>
-                    <p class="lista-elemento__conteudo">BALNEÁRIO CAMBORIÚ - SC</p>
+                <li class="sobre__infos__lista__elemento">
+                    <p class="sobre__infos__lista__elemento__titulo">NATURALIDADE</p>
+                    <p class="sobre__infos__lista__elemento__conteudo">BALNEÁRIO CAMBORIÚ - SC</p>
                 </li>
-                <li class="sobre__infos-lista__elemento">
-                    <p class="lista-elemento__titulo">NACIONALIDADE</p>
-                    <p class="lista-elemento__conteudo">BRASILEIRO</p>
+                <li class="sobre__infos__lista__elemento">
+                    <p class="sobre__infos__lista__elemento__titulo">NACIONALIDADE</p>
+                    <p class="sobre__infos__lista__elemento__conteudo">BRASILEIRO</p>
                 </li>
-                <li class="sobre__infos-lista__elemento">
-                    <p class="lista-elemento__titulo">GITHUB</p>
-                    <p class="lista-elemento__conteudo">https://github.com/Costa-Artur</p>
+                <li class="sobre__infos__lista__elemento">
+                    <p class="sobre__infos__lista__elemento__titulo">GITHUB</p>
+                    <p class="sobre__infos__lista__elemento__conteudo">https://github.com/Costa-Artur</p>
+                </li>
+                <li class="sobre__infos-lista__elemento-botao">
+                    <input type="button" value="CURRÍCULO" class="botao">
                 </li>
             </ul>
+            <img src="./images/ragnar-sobre.jpg" alt="" class="sobre__imagem">
         </div>
-        <img src="./images/ragnar-sobre.jpg" alt="" class="sobre__imagem">
+    </section>
+
+    <section class="portfolio secao">
+        <div class="portfolio__titulo">
+            <h2 class="titulo">| PORTFÓLIO</h2>
+        </div>
+        <div class="portfolio__infos">
+            <div class="portfolio__botoes">
+                <a href="#" class="portfolio__botao"><i class="fa-solid fa-link"></i></a>
+                <a href="#" class="portfolio__botao"><i class="fa-solid fa-palette"></i></a>
+                <a href="#" class="portfolio__botao"><i class="fa-solid fa-camera"></i></a>
+            </div>
+            <div class="portfolio__imagens">
+                <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/portfolio-website-2.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/portfolio-website-3.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/portfolio-website-4.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/Group 18.png" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/portfolio-website-6.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+            </div>
+        </div>
+            <input type="button" value="MAIS" class="portfolio__botao-principal botao">
+    </section>
+
+    <section class="skills secao">
+        <div class="skills__titulo">
+            <h2 class="titulo">| SKILLS</h2>
+        </div>
+        <div class="habilidades">
+            <div class="habilidade">
+                <p class="habilidade__titulo">HTML</p>
+                <img src="./images/html.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">CSS</p>
+                <img src="./images/css.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">C#</p>
+                <img src="./images/csharp.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">JavaScript</p>
+                <img src="./images/javascript.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">.Net Core</p>
+                <img src="./images/netcore.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">TypeScript</p>
+                <img src="./images/ts.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">React</p>
+                <img src="./images/react.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">VS Code</p>
+                <img src="./images/vscode.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">GIT</p>
+                <img src="./images/git.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">PostgreSQL</p>
+                <img src="./images/postgresql.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">Webpack</p>
+                <img src="./images/webpack.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">Nginx</p>
+                <img src="./images/nginx.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">Ubuntu</p>
+                <img src="./images/ubuntu.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">AWS</p>
+                <img src="./images/aws.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">Photoshop</p>
+                <img src="./images/photoshop.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="habilidade">
+                <p class="habilidade__titulo">Figma</p>
+                <img src="./images/figma.png" alt="" class="habilidade__imagem">
+                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+        </div>
+    </section>
+    <section class="experiencia secao">
+        <h2 class="titulo">| EXPERIÊNCIA</h2>
+        <div class="experiencia__conteudo">
+            <ul class="experiencia-lista">
+                <li class="experiencia-lista__item">
+                    <p class="experiencia-lista__item__icone"><i class="fa-solid fa-calendar-days"></i></p>
+                    <p class="experiencia-lista__item__titulo">GOOGLE</p>
+                    <p class="experiencia-lista__item__descricao">Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.</p>
+                </li>
+                <li class="experiencia-lista__item">
+                    <p class="experiencia-lista__item__icone"><i class="fa-solid fa-calendar-days"></i></p>
+                    <p class="experiencia-lista__item__titulo">GOOGLE</p>
+                    <p class="experiencia-lista__item__descricao">Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.</p>
+                </li>
+                <li class="experiencia-lista__item">
+                    <p class="experiencia-lista__item__icone"><i class="fa-solid fa-calendar-days"></i>
+                    <p class="experiencia-lista__item__titulo">GOOGLE</p>
+                    <p class="experiencia-lista__item__descricao">Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.</p>
+                </li>
+            </ul>
+            <div class="experiencia-quadros">
+                
+            </div>
+        </div>
+        <input type="button" value="MAIS" class="botao">
     </section>
 </body>
 </html>
