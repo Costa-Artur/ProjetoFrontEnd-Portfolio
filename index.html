@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,72 +11,103 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./css/splide.min.css">
     <script src="https://kit.fontawesome.com/8c8a9f7ab0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main class="principal">
-        <img src="./images/ragnar-capa.jpg" alt="" class="principal__img">
-        <section class="principal__container">
-            <nav class="principal__cabecalho">
-                <a href="#" class="cabecalho__botao">a</a>
-                <a href="#" class="cabecalho__botao">a</a>
-                <a href="#" class="cabecalho__botao">a</a>
-                <a href="#" class="cabecalho__botao">a</a>
-                <a href="#" class="cabecalho__botao">a</a>
-                <a href="#" class="cabecalho__botao">a</a>
-                <a href="#" class="cabecalho__botao">a</a>
-            </nav>
-            <div class="principal__infos">
-                <p class="principal__infos__introducao">OLÁ!</p>
-                <h1 class="principal__infos__titulo">EU SOU <i class="principal__nome">RAGNAR LOTHBROOK</i> </h1>
-                <p class="principal__infos__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id nisl a tortor tristique venenatis malesuada eu tellus. In a ex ac purus dapibus ultricies aliquam id elit. Vivamus non cursus urna, in placerat lorem. Nunc enim nisi, tempor sit amet neque eget, tempus eleifend ante. Etiam sed tristique lectus. Nunc at orci a neque aliquam rhoncus non ac arcu. Phasellus eget massa quis dui finibus auctor.</p>
-                <input type="button" value="MAIS" class="principal__infos__botao botao">
-            </div>
-        </section>
+      <img src="./images/ragnar-capa.jpg" alt="" class="principal__img" />
+      <section class="principal__container">
+        <nav class="principal__cabecalho">
+          <a href="#" class="cabecalho__botao"> <i class="fa-solid fa-house"></i><p class="cabecalho__botao-texto">HOME</p></a>
+          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-user"></i> <p class="cabecalho__botao-texto">SOBRE</p></a>
+          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-suitcase"></i> <p class="cabecalho__botao-texto">PORTFÓLIO</p></a>
+          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-brain"></i> <p class="cabecalho__botao-texto">HABILIDADES</p></a>
+          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-user-tie"></i> <p class="cabecalho__botao-texto">EXPERIÊNCIA</p> </a>
+          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-user-graduate"></i> <p class="cabecalho__botao-texto">EDUCAÇÃO</p></a>
+          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-message"></i> <p class="cabecalho__botao-texto">CONTATO</p></a>
+          <!-- <i class="fa-solid fa-bars cabecalho__botao"></i> -->
+        </nav>
+        <div class="principal__infos">
+          <p class="principal__infos__introducao">OLÁ!</p>
+          <h1 class="principal__infos__titulo">
+            EU SOU <i class="principal__nome">RAGNAR LOTHBROOK</i>
+          </h1>
+          <p class="principal__infos__texto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id
+            nisl a tortor tristique venenatis malesuada eu tellus. In a ex ac
+            purus dapibus ultricies aliquam id elit. Vivamus non cursus urna, in
+            placerat lorem. Nunc enim nisi, tempor sit amet neque eget, tempus
+            eleifend ante. Etiam sed tristique lectus. Nunc at orci a neque
+            aliquam rhoncus non ac arcu. Phasellus eget massa quis dui finibus
+            auctor.
+          </p>
+          <input
+            type="button"
+            value="MAIS"
+            class="principal__infos__botao botao"
+          />
+        </div>
+      </section>
     </main>
 
     <section class="sobre secao">
-        <div class="sobre__titulo">
+      <section class="sobre__container">
+        <div class="sobre__container__conteudo">
+          <div class="sobre__titulo">
             <h2 class="titulo">| SOBRE</h2>
-        </div>
-        <div class="sobre__infos">
+          </div>
+          <div class="sobre__infos">
             <ul class="sobre__infos__lista">
-                <li class="sobre__infos__lista__elemento">
-                    <p class="sobre__infos__lista__elemento__titulo">NOME</p>
-                    <p class="sobre__infos__lista__elemento__conteudo">ARTUR COSTA</p>
-                </li>
-                <li class="sobre__infos__lista__elemento">
-                    <p class="sobre__infos__lista__elemento__titulo">IDADE</p>
-                    <p class="sobre__infos__lista__elemento__conteudo">18</p>
-                </li>
-                <li class="sobre__infos__lista__elemento">
-                    <p class="sobre__infos__lista__elemento__titulo">PROFISSÃO</p>
-                    <p class="sobre__infos__lista__elemento__conteudo">KKKK</p>
-                </li>
-                <li class="sobre__infos__lista__elemento">
-                    <p class="sobre__infos__lista__elemento__titulo">NATURALIDADE</p>
-                    <p class="sobre__infos__lista__elemento__conteudo">BALNEÁRIO CAMBORIÚ - SC</p>
-                </li>
-                <li class="sobre__infos__lista__elemento">
-                    <p class="sobre__infos__lista__elemento__titulo">NACIONALIDADE</p>
-                    <p class="sobre__infos__lista__elemento__conteudo">BRASILEIRO</p>
-                </li>
-                <li class="sobre__infos__lista__elemento">
-                    <p class="sobre__infos__lista__elemento__titulo">GITHUB</p>
-                    <p class="sobre__infos__lista__elemento__conteudo">https://github.com/Costa-Artur</p>
-                </li>
-                <li class="sobre__infos-lista__elemento-botao">
-                    <input type="button" value="CURRÍCULO" class="botao">
-                </li>
+              <li class="sobre__infos__lista__elemento">
+                <p class="sobre__infos__lista__elemento__titulo">NOME</p>
+                <p class="sobre__infos__lista__elemento__conteudo">
+                  ARTUR COSTA
+                </p>
+              </li>
+              <li class="sobre__infos__lista__elemento">
+                <p class="sobre__infos__lista__elemento__titulo">IDADE</p>
+                <p class="sobre__infos__lista__elemento__conteudo">18</p>
+              </li>
+              <li class="sobre__infos__lista__elemento">
+                <p class="sobre__infos__lista__elemento__titulo">PROFISSÃO</p>
+                <p class="sobre__infos__lista__elemento__conteudo">KKKK</p>
+              </li>
+              <li class="sobre__infos__lista__elemento">
+                <p class="sobre__infos__lista__elemento__titulo">
+                  NATURALIDADE
+                </p>
+                <p class="sobre__infos__lista__elemento__conteudo">
+                  BALNEÁRIO CAMBORIÚ - SC
+                </p>
+              </li>
+              <li class="sobre__infos__lista__elemento">
+                <p class="sobre__infos__lista__elemento__titulo">
+                  NACIONALIDADE
+                </p>
+                <p class="sobre__infos__lista__elemento__conteudo">
+                  BRASILEIRO
+                </p>
+              </li>
+              <li class="sobre__infos__lista__elemento">
+                <p class="sobre__infos__lista__elemento__titulo">GITHUB</p>
+                <p class="sobre__infos__lista__elemento__conteudo">
+                  https://github.com/Costa-Artur
+                </p>
+              </li>
+              <li class="sobre__infos-lista__elemento-botao">
+                <input type="button" value="CURRÍCULO" class="botao" />
+              </li>
             </ul>
-            <img src="./images/ragnar-sobre.jpg" alt="" class="sobre__imagem">
+            <img src="./images/ragnar-sobre.jpg" alt="" class="sobre__imagem" />
+          </div>
         </div>
+      </section>
     </section>
 
     <section class="portfolio secao">
+      <div class="portfolio__container">
         <div class="portfolio__titulo">
-            <h2 class="titulo">| PORTFÓLIO</h2>
+          <h2 class="titulo">| PORTFÓLIO</h2>
         </div>
         <div class="portfolio__infos">
             <div class="portfolio__botoes">
@@ -84,215 +115,537 @@
                 <a href="#" class="portfolio__botao"><i class="fa-solid fa-palette"></i></a>
                 <a href="#" class="portfolio__botao"><i class="fa-solid fa-camera"></i></a>
             </div>
-            <div class="portfolio__imagens splide">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-2.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-3.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-4.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/Group 18.png" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-6.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                        </li>
-                    </ul>
-                    
-                </div>
+            <div class="portfolio__imagens">
+                <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/portfolio-website-2.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/portfolio-website-3.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/portfolio-website-4.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/Group 18.png" alt="exemplo website" srcset="" class="portfolio__imagem">
+                <img src="./images/portfolio-website-6.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
             </div>
         </div>
-            <input type="button" value="MAIS" class="portfolio__botao-principal botao">
+        <input
+          type="button"
+          value="MAIS"
+          class="portfolio__botao-principal botao"
+        />
+      </div>
     </section>
 
     <section class="skills secao">
+      <div class="skills__container">
         <div class="skills__titulo">
-            <h2 class="titulo">| SKILLS</h2>
+          <h2 class="titulo">| SKILLS</h2>
         </div>
         <div class="habilidades">
-            <div class="habilidade">
-                <p class="habilidade__titulo">HTML</p>
-                <img src="./images/html.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">CSS</p>
-                <img src="./images/css.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">C#</p>
-                <img src="./images/csharp.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">JavaScript</p>
-                <img src="./images/javascript.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">.Net Core</p>
-                <img src="./images/netcore.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">TypeScript</p>
-                <img src="./images/ts.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">React</p>
-                <img src="./images/react.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">VS Code</p>
-                <img src="./images/vscode.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">GIT</p>
-                <img src="./images/git.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">PostgreSQL</p>
-                <img src="./images/postgresql.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">Webpack</p>
-                <img src="./images/webpack.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">Nginx</p>
-                <img src="./images/nginx.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">Ubuntu</p>
-                <img src="./images/ubuntu.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">AWS</p>
-                <img src="./images/aws.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">Photoshop</p>
-                <img src="./images/photoshop.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="habilidade">
-                <p class="habilidade__titulo">Figma</p>
-                <img src="./images/figma.png" alt="" class="habilidade__imagem">
-                <p class="habilidade__nivel"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
-            </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">HTML</p>
+            <img src="./images/html.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">CSS</p>
+            <img src="./images/css.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">C#</p>
+            <img src="./images/csharp.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">JavaScript</p>
+            <img
+              src="./images/javascript.png"
+              alt=""
+              class="habilidade__imagem"
+            />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">.Net Core</p>
+            <img src="./images/netcore.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">TypeScript</p>
+            <img src="./images/ts.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">React</p>
+            <img src="./images/react.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">VS Code</p>
+            <img src="./images/vscode.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">GIT</p>
+            <img src="./images/git.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">PostgreSQL</p>
+            <img
+              src="./images/postgresql.png"
+              alt=""
+              class="habilidade__imagem"
+            />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">Webpack</p>
+            <img src="./images/webpack.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">Nginx</p>
+            <img src="./images/nginx.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">Ubuntu</p>
+            <img src="./images/ubuntu.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">AWS</p>
+            <img src="./images/aws.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel"><i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">Photoshop</p>
+            <img
+              src="./images/photoshop.png"
+              alt=""
+              class="habilidade__imagem"
+            />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">Figma</p>
+            <img src="./images/figma.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="experiencia secao">
+      <div class="experiencia__container">
         <h2 class="experiencia__titulo titulo">| EXPERIÊNCIA</h2>
         <div class="experiencia__conteudo">
-            <ul class="experiencia-lista">
-                <li class="experiencia-lista__item">
-                    <div class="experiencia-lista__data">
-                        <p class="experiencia-lista__data__icone"><i class="fa-solid fa-calendar-days"></i></p>
-                        <p class="experiencia-lista__data__dia">2012-2014</p>
-                    </div>
-                    <p class="experiencia-lista__item__titulo">GOOGLE</p>
-                    <p class="experiencia-lista__item__descricao">Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.</p>
-                </li>
-                <li class="experiencia-lista__item">
-                    <div class="experiencia-lista__data">
-                        <p class="experiencia-lista__data__icone"><i class="fa-solid fa-calendar-days"></i></p>
-                        <p class="experiencia-lista__data__dia">2014-2018</p>
-                    </div>
-                    <p class="experiencia-lista__item__titulo">GOOGLE</p>
-                    <p class="experiencia-lista__item__descricao">Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.</p>
-                </li>
-                <li class="experiencia-lista__item">
-                    <div class="experiencia-lista__data">
-                        <p class="experiencia-lista__data__icone"><i class="fa-solid fa-calendar-days"></i></p>
-                        <p class="experiencia-lista__data__dia">2018-2021</p>
-                    </div>
-                    <p class="experiencia-lista__item__titulo">GOOGLE</p>
-                    <p class="experiencia-lista__item__descricao">Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.</p>
-                </li>
-                <li class="experiencia-lista__item">
-                    <div class="experiencia-lista__data">
-                        <p class="experiencia-lista__data__icone"><i class="fa-solid fa-calendar-days"></i></p>
-                        <p class="experiencia-lista__data__dia">2018-2021</p>
-                    </div>
-                    <p class="experiencia-lista__item__titulo">GOOGLE</p>
-                    <p class="experiencia-lista__item__descricao">Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.</p>
-                </li>
-                <li class="experiencia-lista__item">
-                    <div class="experiencia-lista__data">
-                        <p class="experiencia-lista__data__icone"><i class="fa-solid fa-calendar-days"></i></p>
-                        <p class="experiencia-lista__data__dia">2018-2021</p>
-                    </div>
-                    <p class="experiencia-lista__item__titulo">GOOGLE</p>
-                    <p class="experiencia-lista__item__descricao">Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.</p>
-                </li>
-            </ul>
-            <div class="experiencia-quadros">
-                <div class="experiencia-quadros__quadro">
-                    <p class="experiencia-quadros__titulo">9</p>
-                    <p class="experiencia-quadros__descricao">ANOS DE EXPERIÊNCIA</p>
-                </div>
-                <div class="experiencia-quadros__quadro">
-                    <p class="experiencia-quadros__titulo">16</p>
-                    <p class="experiencia-quadros__descricao">PROJETOS INDIVIDUAIS</p>
-                </div>
-                <div class="experiencia-quadros__quadro">
-                    <p class="experiencia-quadros__titulo">72</p>
-                    <p class="experiencia-quadros__descricao">PROJETOS EM EQUIPE</p>
-                </div>
-                <div class="experiencia-quadros__quadro">
-                    <p class="experiencia-quadros__titulo">87</p>
-                    <p class="experiencia-quadros__descricao">CURSOS DE ESPECIALIZAÇÃO</p>
-                </div>
+          <ul class="experiencia-lista">
+            <li class="experiencia-lista__item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2012-2014</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="experiencia-lista__item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2014-2018</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="experiencia-lista__item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="experiencia-lista__item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="experiencia-lista__item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+          </ul>
+          <div class="experiencia-quadros">
+            <div class="experiencia-quadros__quadro">
+              <p class="experiencia-quadros__titulo">9</p>
+              <p class="experiencia-quadros__descricao">ANOS DE EXPERIÊNCIA</p>
             </div>
+            <div class="experiencia-quadros__quadro">
+              <p class="experiencia-quadros__titulo">16</p>
+              <p class="experiencia-quadros__descricao">PROJETOS INDIVIDUAIS</p>
+            </div>
+            <div class="experiencia-quadros__quadro">
+              <p class="experiencia-quadros__titulo">72</p>
+              <p class="experiencia-quadros__descricao">PROJETOS EM EQUIPE</p>
+            </div>
+            <div class="experiencia-quadros__quadro">
+              <p class="experiencia-quadros__titulo">87</p>
+              <p class="experiencia-quadros__descricao">
+                CURSOS DE ESPECIALIZAÇÃO
+              </p>
+            </div>
+          </div>
         </div>
-        <input type="button" value="MAIS" class="experiencia__botao botao">
+        <input type="button" value="MAIS" class="experiencia__botao botao" />
+      </div>
     </section>
 
-    <script src="./js/splide.min.js"></script>
-    <script src="
-https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.4.1/dist/js/splide-extension-grid.min.js
-"></script>
-    <script src="./js/script.js"></script>
+    <section class="educacao secao">
+      <div class="educacao__container">
+        <h2 class="educacao__titulo titulo">| EDUCAÇÃO</h2>
+        <div class="educacao__conteudo">
+          <ul class="educacao__lista">
+            <div class="educacao__lista__titulo">
+              <p>BACHARELADO E PÓS GRADUAÇÃO</p>
+            </div>
+
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+          </ul>
+          <ul class="educacao__lista">
+            <div class="educacao__lista__titulo">
+              <p>CURSO DE ESPECIALIZAÇÃO</p>
+            </div>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+          </ul>
+          <ul class="educacao__lista">
+            <div class="educacao__lista__titulo">
+              <p>CURSO DE ESPECIALIZAÇÃO</p>
+            </div>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="experiencia-lista__data">
+                <p class="experiencia-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="experiencia-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="experiencia-lista__item__titulo">GOOGLE</p>
+              <p class="experiencia-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <input type="button" value="MAIS" class="educacao__botao botao" />
+      </div>
+    </section>
+
+    <section class="contato secao">
+      <div class="contato__container">
+        <h2 class="contato__titulo titulo">| CONTATO</h2>
+        <div class="contato__conteudo">
+          <ul class="contato__lista">
+            <li class="lista__item">
+              <div class="item__icone">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="item__conteudo">
+                <p class="item__titulo">EMAIL</p>
+                <p class="item__descricao">arturc.desouza@gmail.com</p>
+              </div>
+            </li>
+            <li class="lista__item">
+              <div class="item__icone">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="item__conteudo">
+                <p class="item__titulo">TELEFONE</p>
+                <p class="item__descricao">(47) 98443-4410</p>
+              </div>
+            </li>
+            <li class="lista__item">
+              <div class="item__icone">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="item__conteudo">
+                <p class="item__titulo">WHATSAPP</p>
+                <p class="item__descricao">(47) 98443-4410</p>
+              </div>
+            </li>
+            <li class="lista__item">
+              <div class="item__icone">
+                <i class="fa-brands fa-discord"></i>
+              </div>
+              <div class="item__conteudo">
+                <p class="item__titulo">DISCORD</p>
+                <p class="item__descricao">costaartur</p>
+              </div>
+            </li>
+            <li class="lista__item">
+              <div class="item__icone">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="item__conteudo">
+                <p class="item__titulo">GITHUB</p>
+                <p class="item__descricao">costa-artur</p>
+              </div>
+            </li>
+          </ul>
+          <div class="contato__formulario">
+            <input
+              type="text"
+              name="nome"
+              id=""
+              placeholder="NOME"
+              class="contato__input"
+            />
+
+            <input
+              type="text"
+              name="email"
+              id=""
+              placeholder="EMAIL"
+              class="contato__input"
+            />
+
+            <input
+              type="text"
+              name="telefone"
+              id=""
+              placeholder="TELEFONE"
+              class="contato__input"
+            />
+
+            <input
+              type="text"
+              name="assunto"
+              id=""
+              placeholder="ASSUNTO"
+              class="contato__input"
+            />
+
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="MENSAGEM"
+              class="contato__input"
+            ></textarea>
+          </div>
+        </div>
+        <div class="contato__botoes">
+          <navbar class="contato__redes-sociais">
+            <a href="https://github.com/Costa-Artur" class="contato__rede">
+                <span class="fa-stack fa-2x">
+                    <i class="fa-solid fa-square fa-stack-2x icone__fundo"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse icone__marca"></i>
+                  </span>
+            </a>
+            
+            <a href="https://br.linkedin.com/in/artur-costa-de-souza-7673a1244" class="contato__rede">
+                <span class="fa-stack fa-2x">
+                    <i class="fa-solid fa-square fa-stack-2x icone__fundo"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse icone__marca"></i>
+                  </span>
+            </a>
+          </navbar>
+          <input type="button" value="ENVIAR" class="contato__botao botao" />
+        </div>
+      </div>
+    </section>
 </body>
 </html>
