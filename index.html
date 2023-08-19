@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/splide.min.css">
     <script src="https://kit.fontawesome.com/8c8a9f7ab0.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -83,13 +84,51 @@
                 <a href="#" class="portfolio__botao"><i class="fa-solid fa-palette"></i></a>
                 <a href="#" class="portfolio__botao"><i class="fa-solid fa-camera"></i></a>
             </div>
-            <div class="portfolio__imagens">
-                <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/portfolio-website-2.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/portfolio-website-3.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/portfolio-website-4.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/Group 18.png" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/portfolio-website-6.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+            <div class="portfolio__imagens splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-2.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-3.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-4.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/Group 18.png" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-6.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+                        </li>
+                    </ul>
+                    
+                </div>
             </div>
         </div>
             <input type="button" value="MAIS" class="portfolio__botao-principal botao">
@@ -182,6 +221,7 @@
             </div>
         </div>
     </section>
+
     <section class="experiencia secao">
         <h2 class="experiencia__titulo titulo">| EXPERIÊNCIA</h2>
         <div class="experiencia__conteudo">
@@ -248,5 +288,11 @@
         </div>
         <input type="button" value="MAIS" class="experiencia__botao botao">
     </section>
+
+    <script src="./js/splide.min.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.4.1/dist/js/splide-extension-grid.min.js
+"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

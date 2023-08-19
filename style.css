@@ -125,10 +125,12 @@ body {
     width: 90%;
 }
 
-.portfolio__imagens {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5vh;
+.splide {
+    width: 100%;
+}
+
+.splide__pagination {
+    margin-top: 100%;
 }
 
 .portfolio__imagem {
