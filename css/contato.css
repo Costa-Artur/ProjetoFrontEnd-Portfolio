@@ -1,0 +1,77 @@
+
+.contato {
+    display: flex;
+    align-items: center;
+}
+
+.contato__container {
+    width: 80%;
+}
+
+.contato__lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7%;
+    width: 50%;
+}
+
+.contato__conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    margin-top: 5%;
+}
+
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contato__input {
+    padding: 1.5vh;
+    background-color: var(--cinza-claro);
+    color: var(--cinza-clarinho);
+    border-radius: 8px;
+    border: solid 1px var(--cinza-clarinho);
+    margin-bottom: 3%;
+}
+
+.contato__formulario textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contato__mensagem {
+    height: 40%;
+}
+
+.contato__botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato__redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+}
+
+.contato__rede {
+    color: var(--amarelo-botao);
+    font-size: clamp(1rem, 1vh, 3rem);
+    border-radius: 50px;
+}
+
+.icone__fundo {
+    color: var(--cinza-claro);
+}
+
+.contato__rede:hover .icone__fundo {
+    color: var(--amarelo-botao);
+}
+
+.contato__rede:hover .icone__marca {
+    color: var(--cinza-claro);
+}

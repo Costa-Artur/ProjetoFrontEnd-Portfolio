@@ -1,0 +1,128 @@
+
+.portfolio__infos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splide {
+    display: none;
+    width: 70%;
+}
+
+.splide__slide {
+    width: 100%;
+}
+
+.splide__slide.passado .botoes-custom {
+    opacity: 1;
+}
+
+.splide__slide.passado .portfolio__imagem {
+    filter: blur(5px);
+}
+
+.splide.active {
+    display: block;
+}
+
+.splide__pagination__page:not(.is-active) {
+    display: none;
+    background-color: var(--cinza-claro);
+}
+
+.splide__pagination__page.is-active {
+    display: none;
+    background-color: var(--amarelo-botao);
+}
+
+.portfolio__botoes {
+    align-self: flex-end;
+}
+
+.portfolio {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio__container {
+    width: 80%;
+}
+
+
+.portfolio__imagem {
+    width: 100%;
+    height: 100%;
+    transition: filter 0.5s;
+    object-fit: cover;
+}
+
+.botoes-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.botao-custom {
+    background-color: var(--amarelo-botao);
+    color: #FFFFFF;
+    padding: 50% 60%;
+    margin: 0 50%;
+    cursor: pointer;
+    font-size: clamp(1rem, 2.5vmin, 2rem);
+    border: none;
+}
+
+.portfolio__titulo {
+    margin-bottom: 5%;
+}
+
+.portfolio__botoes {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.portfolio__botao {
+    text-decoration: none;
+    font-size: clamp(1vmin, 2.5vmin, 2.5vmin);
+    color: var(--cinza-clarinho);
+    margin-left: 1vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 1s ease-in-out;
+}
+
+.portfolio__botao p {
+    display: none;
+}
+
+.portfolio__botao.ativo {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2% 20%;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    background-color: var(--amarelo-botao);
+    color: #fff;
+}
+
+.portfolio__botao.ativo i {
+    margin-right: 20%;
+}
+
+.portfolio__botao.ativo p {
+    display: block;
+}
+
+.portfolio__botao-principal {
+    margin-top: 5vh;
+}

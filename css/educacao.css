@@ -1,0 +1,65 @@
+
+.educacao {
+    display: flex;
+    align-items: center;
+}
+
+.educacao__container {
+    width: 80%;
+}
+
+.educacao__conteudo {
+    margin: 6vh 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8%;
+}
+
+.educacao__lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.educacao__lista-item {
+    margin: 3vmin;
+}
+
+.educacao__lista__titulo {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cinza-claro);
+    color: var(--amarelo-botao);
+    font-weight: bold;
+    padding: 1vmin 0;
+}
+
+.educacao__botao {
+    align-self: flex-end;
+}
+
+.lista__item {
+    display: flex;
+}
+
+.item__icone {
+    padding: 1%;
+    border-radius: 5px;
+    background-color: var(--amarelo-botao);
+    font-size: 1.5em;
+    color: #111111;
+    margin-right: 1%;
+}
+
+.item__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item__titulo {
+    color: var(--cinza-clarinho);
+}
+
+.item__descricao {
+    font-weight: bold;
+}

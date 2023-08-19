@@ -5,26 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/8c8a9f7ab0.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/habilidades.css">
+    <link rel="stylesheet" href="./css/experiencia.css">
+    <link rel="stylesheet" href="./css/educacao.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    
+  </head>
+  <body>
     <main class="principal">
       <img src="./images/ragnar-capa.jpg" alt="" class="principal__img" />
       <section class="principal__container">
         <nav class="principal__cabecalho">
-          <a href="#" class="cabecalho__botao"> <i class="fa-solid fa-house"></i><p class="cabecalho__botao-texto">HOME</p></a>
-          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-user"></i> <p class="cabecalho__botao-texto">SOBRE</p></a>
-          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-suitcase"></i> <p class="cabecalho__botao-texto">PORTFÓLIO</p></a>
-          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-brain"></i> <p class="cabecalho__botao-texto">HABILIDADES</p></a>
-          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-user-tie"></i> <p class="cabecalho__botao-texto">EXPERIÊNCIA</p> </a>
-          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-user-graduate"></i> <p class="cabecalho__botao-texto">EDUCAÇÃO</p></a>
-          <a href="#" class="cabecalho__botao"><i class="fa-solid fa-message"></i> <p class="cabecalho__botao-texto">CONTATO</p></a>
+          <a href="#" class="cabecalho__botao">
+            <i class="fa-solid fa-house"></i>
+            <p class="cabecalho__botao-texto">HOME</p></a
+          >
+          <a href="#" class="cabecalho__botao"
+            ><i class="fa-solid fa-user"></i>
+            <p class="cabecalho__botao-texto">SOBRE</p></a
+          >
+          <a href="#" class="cabecalho__botao"
+            ><i class="fa-solid fa-suitcase"></i>
+            <p class="cabecalho__botao-texto">PORTFÓLIO</p></a
+          >
+          <a href="#" class="cabecalho__botao"
+            ><i class="fa-solid fa-brain"></i>
+            <p class="cabecalho__botao-texto">HABILIDADES</p></a
+          >
+          <a href="#" class="cabecalho__botao"
+            ><i class="fa-solid fa-user-tie"></i>
+            <p class="cabecalho__botao-texto">EXPERIÊNCIA</p>
+          </a>
+          <a href="#" class="cabecalho__botao"
+            ><i class="fa-solid fa-user-graduate"></i>
+            <p class="cabecalho__botao-texto">EDUCAÇÃO</p></a
+          >
+          <a href="#" class="cabecalho__botao"
+            ><i class="fa-solid fa-message"></i>
+            <p class="cabecalho__botao-texto">CONTATO</p></a
+          >
           <!-- <i class="fa-solid fa-bars cabecalho__botao"></i> -->
         </nav>
         <div class="principal__infos">
@@ -110,19 +145,186 @@
           <h2 class="titulo">| PORTFÓLIO</h2>
         </div>
         <div class="portfolio__infos">
-            <div class="portfolio__botoes">
-                <a href="#" class="portfolio__botao"><i class="fa-solid fa-link"></i></a>
-                <a href="#" class="portfolio__botao"><i class="fa-solid fa-palette"></i></a>
-                <a href="#" class="portfolio__botao"><i class="fa-solid fa-camera"></i></a>
+          <div class="portfolio__botoes">
+            <button class="portfolio__botao ativo" data-carrossel="website"
+              >
+              <p>WEBSITE</p>
+              <i class="fa-solid fa-link"></i
+            ></button>
+            <button class="portfolio__botao" data-carrossel="banco-de-dados"
+              >
+              <p>BANCO</p>
+              <i class="fa-solid fa-palette"></i
+            ></button>
+            <button class="portfolio__botao" data-carrossel="photoshop"
+              >
+              <p>PHOTOSHOP</p>
+              <i class="fa-solid fa-camera"></i
+            ></button>
+          </div>
+          <div class="portfolio__imagens splide" id="website-carrossel">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img
+                    src="./images/portfolio-website-1.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./images/portfolio-website-2.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./images/portfolio-website-3.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./images/portfolio-website-7.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./images/portfolio-website-3.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./images/portfolio-website-4.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./images/portfolio-website-6.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+              </ul>
             </div>
-            <div class="portfolio__imagens">
-                <img src="./images/portfolio-website-1.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/portfolio-website-2.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/portfolio-website-3.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/portfolio-website-4.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/Group 18.png" alt="exemplo website" srcset="" class="portfolio__imagem">
-                <img src="./images/portfolio-website-6.jpg" alt="exemplo website" srcset="" class="portfolio__imagem">
+          </div>
+          <div class="portfolio__imagens splide" id="banco-de-dados-carrossel">
+            <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                  <img
+                    src="./images/banco-de-dados.png"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./images/qual-o-melhor-banco-de-dados.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+              </ul>
             </div>
+          </div>
+          <div class="portfolio__imagens splide" id="photoshop-carrossel">
+            <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                  <img
+                    src="./images/borboleta.jpeg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./images/foto-camera.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./images/foto.jpg"
+                    alt="exemplo website"
+                    srcset=""
+                    class="portfolio__imagem"
+                  />
+                  <div class="botoes-custom">
+                    <button class="botao-custom"> <i class="fa-solid fa-up-right-from-square"></i></button>
+                    <button class="botao-custom"><i class="fa-brands fa-github"></i></button>
+                  </div>
+                </li>
+              </ul>
+                            
+            </div>
+          </div>
         </div>
         <input
           type="button"
@@ -268,7 +470,6 @@
         </div>
       </div>
     </section>
-
     <section class="experiencia secao">
       <div class="experiencia__container">
         <h2 class="experiencia__titulo titulo">| EXPERIÊNCIA</h2>
@@ -630,22 +831,46 @@
         <div class="contato__botoes">
           <navbar class="contato__redes-sociais">
             <a href="https://github.com/Costa-Artur" class="contato__rede">
-                <span class="fa-stack fa-2x">
-                    <i class="fa-solid fa-square fa-stack-2x icone__fundo"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse icone__marca"></i>
-                  </span>
+              <span class="fa-stack fa-2x">
+                <i class="fa-solid fa-square fa-stack-2x icone__fundo"></i>
+                <i
+                  class="fab fa-github fa-stack-1x fa-inverse icone__marca"
+                ></i>
+              </span>
             </a>
-            
-            <a href="https://br.linkedin.com/in/artur-costa-de-souza-7673a1244" class="contato__rede">
-                <span class="fa-stack fa-2x">
-                    <i class="fa-solid fa-square fa-stack-2x icone__fundo"></i>
-                    <i class="fab fa-linkedin fa-stack-1x fa-inverse icone__marca"></i>
-                  </span>
+
+            <a
+              href="https://br.linkedin.com/in/artur-costa-de-souza-7673a1244"
+              class="contato__rede"
+            >
+              <span class="fa-stack fa-2x">
+                <i class="fa-solid fa-square fa-stack-2x icone__fundo"></i>
+                <i
+                  class="fab fa-linkedin fa-stack-1x fa-inverse icone__marca"
+                ></i>
+              </span>
             </a>
           </navbar>
           <input type="button" value="ENVIAR" class="contato__botao botao" />
         </div>
       </div>
     </section>
-</body>
+
+
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+
+
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.4.1/dist/js/splide-extension-grid.min.js
+"></script>
+
+    <script
+      src="https://kit.fontawesome.com/8c8a9f7ab0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/carrossel-splide.js"></script>
+  </body>
 </html>
