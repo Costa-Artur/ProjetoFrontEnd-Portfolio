@@ -25,18 +25,20 @@
     justify-content: space-between;
     width: 80%;
     margin-bottom: 3vmin;
+    transition: all 0.3s ease-in-out;
 }
 
 .habilidade__imagem {
     width: 100%;
     filter: grayscale(100%);
+    transition: filter 0.5s;
 }
 
 .habilidade__titulo {
     color: var(--cinza-clarinho);
     margin-bottom: 10%;
     font-weight: bold;
-    
+    transition: color 0.5s;
 }
 
 .habilidade__nivel {
@@ -46,6 +48,7 @@
     font-size: clamp(0.5vmin, 1vmin, 1vmin);
     margin-top: 1vh;
     column-gap: 0.5vh;
+    transition: color 0.5s;
 }
 
 .habilidade:hover .habilidade__imagem {
@@ -58,4 +61,8 @@
 
 .habilidade:hover .habilidade__titulo {
     color: var(--amarelo-botao);
+}
+
+.habilidade:hover {
+    transform: scale(1.2);
 }
