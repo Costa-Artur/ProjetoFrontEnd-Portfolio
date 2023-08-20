@@ -12,7 +12,7 @@
     margin:0 10%;
 }
 
-.principal__nome {
+.infos__nome {
     font-weight: 700;
 }
 
@@ -27,17 +27,17 @@
     margin-bottom: 40%;
 }
 
-.principal__infos__introducao {
+.infos__introducao {
     font-size: clamp(1vmax, 1.5vmax, 1.5vmax);
     margin-bottom: 0.1em;
 }
 
-.principal__infos__titulo {
+.infos__titulo {
     font-size: clamp(1vmax, 2vmax, 2vmax);;
     margin-bottom: 0.1em;
 }
 
-.principal__infos__botao {
+.infos__botao {
     margin: 5vh 0;
 }
 

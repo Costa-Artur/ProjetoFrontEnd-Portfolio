@@ -9,6 +9,7 @@
 .menu-barras {
     font-size: clamp(1.5rem, 3vh, 3rem);
     transition: transform 0.8s;
+    cursor: pointer;
 }
 
 .menu-barras.aberto {
