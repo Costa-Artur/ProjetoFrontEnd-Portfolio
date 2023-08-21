@@ -15,11 +15,11 @@
     width: 100%;
 }
 
-.splide__slide.passado .botoes-custom {
+.splide__slide--focado .botoes-custom {
     opacity: 1;
 }
 
-.splide__slide.passado .portfolio__imagem {
+.splide__slide--focado .portfolio__imagem {
     filter: blur(5px);
 }
 
@@ -105,7 +105,7 @@
     display: none;
 }
 
-.portfolio__botao.ativo {
+.portfolio__botao--ativo {
     display: flex;
     flex-direction: row-reverse;
     padding: 2% 20%;
@@ -115,11 +115,11 @@
     color: #fff;
 }
 
-.portfolio__botao.ativo i {
+.portfolio__botao--ativo i {
     margin-right: 20%;
 }
 
-.portfolio__botao.ativo p {
+.portfolio__botao--ativo p {
     display: block;
 }
 

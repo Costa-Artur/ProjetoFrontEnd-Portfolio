@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const carrosselVisivel = button.getAttribute('data-carrossel');
 
       botoes.forEach(btn => {
-        btn.classList.remove('ativo');
+        btn.classList.remove('portfolio__botao--ativo');
       })
 
       carrosseis.forEach(carrossel => {
@@ -24,17 +24,17 @@ document.addEventListener('DOMContentLoaded', () => {
       })
 
       document.getElementById(carrosselVisivel + '-carrossel').classList.add('active');
-      button.classList.add('ativo');
+      button.classList.add('portfolio__botao--ativo');
     });
   });
   
   slides.forEach(slide => {
     slide.addEventListener('mouseenter', () => {
-      slide.classList.add('passado');
+      slide.classList.add('splide__slide--focado');
     })
 
     slide.addEventListener('mouseleave', () => {
-      slide.classList.remove('passado');
+      slide.classList.remove('splide__slide--focado');
     });
   });
 
