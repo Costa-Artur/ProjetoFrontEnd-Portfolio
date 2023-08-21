@@ -16,7 +16,7 @@
     transform: rotate(0.25turn);
 }
 
-.principal__cabecalho {
+.cabecalho {
     position: fixed;
     display: flex;
     right: -600%;
@@ -25,7 +25,7 @@
     justify-content: center;
 }
 
-.principal__cabecalho.aberto {
+.cabecalho.aberto {
     right: 0;
 }
 

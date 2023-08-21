@@ -1,6 +1,6 @@
 const menuAbrir = document.querySelector('.menu-barras')
 
-const nav = document.querySelector('.principal__cabecalho')
+const nav = document.querySelector('.cabecalho')
 
 menuAbrir.addEventListener('click', () => {
     menuAbrir.classList.toggle('aberto');
