@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
   carrosseis.forEach(carrossel => {
     new Splide(carrossel, {
       type: 'loop',
+      autoplay: {
+        delay: 300,
+        disableOnInteraction: false,
+      },
     }).mount();
   })
 
