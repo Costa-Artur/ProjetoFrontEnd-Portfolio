@@ -16,25 +16,27 @@
     font-weight: 700;
 }
 
+.infos__texto {
+    font-size: clamp(1vmin, 2vmin, 2vmin);
+}
+
 .principal__img {
     align-self: center;
 }
 
 .principal__infos {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin-bottom: 40%;
 }
 
 .infos__introducao {
     font-size: clamp(1vmax, 1.5vmax, 1.5vmax);
-    margin-bottom: 0.1em;
+    margin-bottom: 1.5%;
 }
 
 .infos__titulo {
     font-size: clamp(1vmax, 2vmax, 2vmax);;
-    margin-bottom: 0.1em;
+    margin-bottom: 1.5%;
 }
 
 .infos__botao {

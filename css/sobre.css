@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: clamp(0.8rem, 0.8vmin, 3rem);
 }
 
 .sobre__infos__lista__elemento {
@@ -32,7 +33,7 @@
 }
 
 .sobre__infos__lista__elemento__titulo {
-    color: var(--cinza-clarinho);
+    color: var(--secundaria);
     font-size: 1.3em;
 }
 
@@ -43,4 +44,8 @@
 
 .sobre__infos-lista__elemento-botao {
     margin-top: 20%;
+}
+
+.sobre__infos__botao {
+    padding: 1vw 1.5vw;
 }

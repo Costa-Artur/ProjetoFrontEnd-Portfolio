@@ -31,7 +31,7 @@
 
   </head>
   <body>
-    <div class="menu-topo">
+    <header class="menu-topo">
       <nav class="principal__cabecalho">
         <a href="#home" class="cabecalho__botao">
           <i class="fa-solid fa-house"></i>
@@ -66,7 +66,7 @@
       <div class="menu-barras">
         <i class="fa-solid fa-bars"></i>
       </div>
-    </div>
+    </header>
 
     <main class="principal" id="home">
       <img src="./images/ragnar-capa.jpg" alt="" class="principal__img" />
@@ -89,7 +89,7 @@
           <input
             type="button"
             value="MAIS"
-            class="infos__botao botao"
+            class="infos__botao botao-principal--cor--amarelo"
           />
         </div>
       </section>
@@ -140,7 +140,7 @@
                 </p>
               </li>
               <li class="sobre__infos-lista__elemento-botao">
-                <input type="button" value="CURRÍCULO" class="botao" />
+                <a type="button" class="botao-principal--cor--amarelo sobre__infos__botao" href="./files/Currículo.pdf" />CURRÍCULO</a>
               </li>
             </ul>
             <img src="./images/ragnar-sobre.jpg" alt="" class="sobre__imagem" />
@@ -383,7 +383,7 @@
         <input
           type="button"
           value="MAIS"
-          class="portfolio__botao-principal botao"
+          class="portfolio__botao-principal botao-principal--cor--amarelo"
         />
       </div>
     </section>
@@ -411,23 +411,8 @@
               ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
             </p>
           </div>
-          <div class="habilidade">
-            <p class="habilidade__titulo">C#</p>
-            <img src="./images/csharp.png" alt="" class="habilidade__imagem" />
-            <p class="habilidade__nivel">
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i
-              >
-            </p>
-          </div>
-          <div class="habilidade">
-            <p class="habilidade__titulo">.Net Core</p>
-            <img src="./images/netcore.png" alt="" class="habilidade__imagem" />
-            <p class="habilidade__nivel">
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-            </p>
-          </div>
+          
+          
           <div class="habilidade">
             <p class="habilidade__titulo">VS Code</p>
             <img src="./images/vscode.png" alt="" class="habilidade__imagem" />
@@ -446,6 +431,23 @@
             <p class="habilidade__nivel">
               <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
               ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">C#</p>
+            <img src="./images/csharp.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i
+              >
+            </p>
+          </div>
+          <div class="habilidade">
+            <p class="habilidade__titulo">.Net Core</p>
+            <img src="./images/netcore.png" alt="" class="habilidade__imagem" />
+            <p class="habilidade__nivel">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
             </p>
           </div>
           <div class="habilidade">
@@ -597,7 +599,7 @@
             </div>
           </div>
         </div>
-        <input type="button" value="MAIS" class="experiencia__botao botao" />
+        <input type="button" value="MAIS" class="experiencia__botao botao-principal--cor--amarelo" />
       </div>
     </section>
 
@@ -611,97 +613,40 @@
             </div>
 
             <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
                   <i class="fa-solid fa-calendar-days"></i>
                 </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
               </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
                 Estágio na Google atuando na equipe de desenvolvimento de
                 ferramentas para o ADS.
               </p>
             </li>
             <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
                   <i class="fa-solid fa-calendar-days"></i>
                 </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
               </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
                 Estágio na Google atuando na equipe de desenvolvimento de
                 ferramentas para o ADS.
               </p>
             </li>
             <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
                   <i class="fa-solid fa-calendar-days"></i>
                 </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
               </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
-                Estágio na Google atuando na equipe de desenvolvimento de
-                ferramentas para o ADS.
-              </p>
-            </li>
-          </ul>
-          <ul class="educacao__lista">
-            <div class="educacao__lista__titulo">
-              <p>CURSO DE ESPECIALIZAÇÃO</p>
-            </div>
-            <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
-                  <i class="fa-solid fa-calendar-days"></i>
-                </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
-              </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
-                Estágio na Google atuando na equipe de desenvolvimento de
-                ferramentas para o ADS.
-              </p>
-            </li>
-            <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
-                  <i class="fa-solid fa-calendar-days"></i>
-                </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
-              </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
-                Estágio na Google atuando na equipe de desenvolvimento de
-                ferramentas para o ADS.
-              </p>
-            </li>
-            <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
-                  <i class="fa-solid fa-calendar-days"></i>
-                </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
-              </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
-                Estágio na Google atuando na equipe de desenvolvimento de
-                ferramentas para o ADS.
-              </p>
-            </li>
-            <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
-                  <i class="fa-solid fa-calendar-days"></i>
-                </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
-              </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
                 Estágio na Google atuando na equipe de desenvolvimento de
                 ferramentas para o ADS.
               </p>
@@ -712,60 +657,117 @@
               <p>CURSO DE ESPECIALIZAÇÃO</p>
             </div>
             <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
                   <i class="fa-solid fa-calendar-days"></i>
                 </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
               </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
                 Estágio na Google atuando na equipe de desenvolvimento de
                 ferramentas para o ADS.
               </p>
             </li>
             <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
                   <i class="fa-solid fa-calendar-days"></i>
                 </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
               </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
                 Estágio na Google atuando na equipe de desenvolvimento de
                 ferramentas para o ADS.
               </p>
             </li>
             <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
                   <i class="fa-solid fa-calendar-days"></i>
                 </p>
-                <p class="experiencia-lista__data__dia">2018-2021</p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
               </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
                 Estágio na Google atuando na equipe de desenvolvimento de
                 ferramentas para o ADS.
               </p>
             </li>
             <li class="educacao__lista-item">
-              <div class="experiencia-lista__data">
-                <p class="experiencia-lista__data__icone">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+          </ul>
+          <ul class="educacao__lista">
+            <div class="educacao__lista__titulo">
+              <p>CURSO DE ESPECIALIZAÇÃO</p>
+            </div>
+            <li class="educacao__lista-item">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
                   <i class="fa-solid fa-calendar-days"></i>
                 </p>
                 <p class="experiencia-lista__data__dia">2018-2021</p>
               </div>
-              <p class="experiencia-lista__item__titulo">GOOGLE</p>
-              <p class="experiencia-lista__item__descricao">
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+            <li class="educacao__lista-item">
+              <div class="educacao-lista__data">
+                <p class="educacao-lista__data__icone">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </p>
+                <p class="educacao-lista__data__dia">2018-2021</p>
+              </div>
+              <p class="educacao-lista__item__titulo">GOOGLE</p>
+              <p class="educacao-lista__item__descricao">
                 Estágio na Google atuando na equipe de desenvolvimento de
                 ferramentas para o ADS.
               </p>
             </li>
           </ul>
         </div>
-        <input type="button" value="MAIS" class="educacao__botao botao" />
+        <input type="button" value="MAIS" class="educacao__botao botao-principal--cor--amarelo" />
       </div>
     </section>
 
@@ -808,15 +810,6 @@
               <div class="item__conteudo">
                 <p class="item__titulo">DISCORD</p>
                 <p class="item__descricao">costaartur</p>
-              </div>
-            </li>
-            <li class="lista__item">
-              <div class="item__icone">
-                <i class="fa-brands fa-github"></i>
-              </div>
-              <div class="item__conteudo">
-                <p class="item__titulo">GITHUB</p>
-                <p class="item__descricao">costa-artur</p>
               </div>
             </li>
           </ul>
@@ -868,7 +861,7 @@
             ></textarea>
 
             
-          <input type="submit" value="ENVIAR" class="contato__botao botao"  />
+          <input type="submit" value="ENVIAR" class="contato__botao botao-principal--cor--amarelo"  />
           </form>
         </div>
         <div class="contato__botoes">

@@ -34,10 +34,10 @@
 }
 
 .cabecalho__botao {
-    background-color: var(--cinza-claro);
+    background-color: var(--fonte-botoes-destaque);
     border-radius: 50px;
     padding: 1vh;
-    color: var(--branco);
+    color: var(--principal);
     text-decoration: none;
     margin-right: 1em;
     display: flex;
@@ -48,7 +48,7 @@
 
 .cabecalho__botao:hover {
     border-radius: 16px;
-    background-color: var(--amarelo-botao);
+    background-color: var(--cor-destaque);
     width: 15%;
     display: flex;
     flex-direction: row-reverse;

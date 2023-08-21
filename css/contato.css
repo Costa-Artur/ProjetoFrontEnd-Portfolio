@@ -31,10 +31,10 @@
 
 .contato__input {
     padding: 1.5vh;
-    background-color: var(--cinza-claro);
-    color: var(--cinza-clarinho);
+    background-color: var(--fonte-botoes-destaque);
+    color: var(--secundaria);
     border-radius: 8px;
-    border: solid 1px var(--cinza-clarinho);
+    border: solid 1px var(--secundaria);
     margin-bottom: 3%;
 }
 
@@ -59,19 +59,19 @@
 }
 
 .contato__rede {
-    color: var(--amarelo-botao);
+    color: var(--cor-destaque);
     font-size: clamp(1rem, 1vh, 3rem);
     border-radius: 50px;
 }
 
 .icone__fundo {
-    color: var(--cinza-claro);
+    color: var(--fonte-botoes-destaque);
 }
 
 .contato__rede:hover .icone__fundo {
-    color: var(--amarelo-botao);
+    color: var(--cor-destaque);
 }
 
 .contato__rede:hover .icone__marca {
-    color: var(--cinza-claro);
+    color: var(--fonte-botoes-destaque);
 }

@@ -35,7 +35,7 @@
 }
 
 .habilidade__titulo {
-    color: var(--cinza-clarinho);
+    color: var(--secundaria);
     margin-bottom: 10%;
     font-weight: bold;
     transition: color 0.5s;
@@ -56,11 +56,11 @@
 }
 
 .habilidade:hover .habilidade__nivel {
-    color: var(--amarelo-botao);
+    color: var(--cor-destaque);
 }
 
 .habilidade:hover .habilidade__titulo {
-    color: var(--amarelo-botao);
+    color: var(--cor-destaque);
 }
 
 .habilidade:hover {

@@ -1,15 +1,13 @@
-
-
 :root {
-    --amarelo-botao: #F5B63F;
-    --branco: #FFFFFF;
-    --cinza-claro: #2B2A2A;
-    --cinza-clarinho: #C4C4C4;
+    --cor-destaque: #F5B63F;
+    --principal: #FFFFFF;
+    --fonte-botoes-destaque: #2B2A2A;
+    --secundaria: #C4C4C4;
 }
 
 body {
     background-color: #111111;
-    color: var(--branco);
+    color: var(--principal);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -21,19 +19,19 @@ body {
     margin-bottom: 5%;
 }
 
-.botao {
-    background-color: var(--amarelo-botao);
+.botao-principal--cor--amarelo {
+    background-color: var(--cor-destaque);
     width: 10em;
     padding: 0.5em 0.3em;
     border-radius: 10px;
-    color: var(--branco);
+    color: var(--principal);
     font-size: 1.3em;
     border: none;
     cursor: pointer;
 }
 
 .titulo {
-    color: var(--amarelo-botao);
+    color: var(--cor-destaque);
     font-size: 4em;
     font-weight: bold;
 }

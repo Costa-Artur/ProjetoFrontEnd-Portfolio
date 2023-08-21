@@ -29,12 +29,12 @@
 
 .splide__pagination__page:not(.is-active) {
     display: none;
-    background-color: var(--cinza-claro);
+    background-color: var(--fonte-botoes-destaque);
 }
 
 .splide__pagination__page.is-active {
     display: none;
-    background-color: var(--amarelo-botao);
+    background-color: var(--cor-destaque);
 }
 
 .portfolio__botoes {
@@ -71,7 +71,7 @@
 }
 
 .botao-custom {
-    background-color: var(--amarelo-botao);
+    background-color: var(--cor-destaque);
     color: #FFFFFF;
     padding: 50% 60%;
     margin: 0 50%;
@@ -93,7 +93,7 @@
 .portfolio__botao {
     text-decoration: none;
     font-size: clamp(1vmin, 2.5vmin, 2.5vmin);
-    color: var(--cinza-clarinho);
+    color: var(--secundaria);
     margin-left: 1vw;
     background: none;
     border: none;
@@ -111,7 +111,7 @@
     padding: 2% 20%;
     justify-content: space-evenly;
     border-radius: 50px;
-    background-color: var(--amarelo-botao);
+    background-color: var(--cor-destaque);
     color: #fff;
 }
 
