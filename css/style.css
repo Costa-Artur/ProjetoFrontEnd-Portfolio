@@ -19,8 +19,7 @@ body {
     margin-bottom: 5%;
 }
 
-.botao-principal--cor--principal {
-    background-color: var(--cor-destaque);
+.botao {
     width: 10em;
     padding: 0.5em 0.3em;
     border-radius: 10px;
@@ -28,6 +27,11 @@ body {
     font-size: 1.3em;
     border: none;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.botao-principal--cor--principal {
+    background-color: var(--cor-destaque);
 }
 
 .titulo {
