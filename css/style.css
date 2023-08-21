@@ -19,7 +19,7 @@ body {
     margin-bottom: 5%;
 }
 
-.botao-principal--cor--amarelo {
+.botao-principal--cor--principal {
     background-color: var(--cor-destaque);
     width: 10em;
     padding: 0.5em 0.3em;
