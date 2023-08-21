@@ -34,12 +34,12 @@
 
 .sobre__infos__lista__elemento__titulo {
     color: var(--secundaria);
-    font-size: 1.3em;
+    font-size: clamp(1vmin, 2.5vmin, 2.5vmin);
 }
 
 .sobre__infos__lista__elemento__conteudo {
     margin-top: 0.2em;  
-    font-size: 2em;
+    font-size: clamp(1vmin, 2.5vmin, 2.5vmin);
 }
 
 .sobre__infos-lista__elemento-botao {

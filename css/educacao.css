@@ -64,7 +64,7 @@
     padding: 1%;
     border-radius: 5px;
     background-color: var(--cor-destaque);
-    font-size: 1.5em;
+    font-size: clamp(1vmin, 2.5vmin, 2.5vmin);
     color: #111111;
     margin-right: 1%;
 }

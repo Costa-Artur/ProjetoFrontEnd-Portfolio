@@ -71,5 +71,5 @@
 .experiencia-quadros__titulo {
     color: var(--cor-destaque);
     font-weight: bold;
-    font-size: 5vmin;
+    font-size: clamp(2vmin, 4vmin, 5vmin);
 }

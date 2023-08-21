@@ -24,7 +24,7 @@ body {
     padding: 0.5em 0.3em;
     border-radius: 10px;
     color: var(--principal);
-    font-size: 1.3em;
+    font-size: clamp(1vmin, 2.5vmin, 2.5vmin);
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -36,6 +36,6 @@ body {
 
 .titulo {
     color: var(--cor-destaque);
-    font-size: 4em;
+    font-size: clamp(5vmin, 6vmin, 8vmin);
     font-weight: bold;
 }
