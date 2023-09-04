@@ -4,9 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
   
   carrosseis.forEach(carrossel => {
     new Splide(carrossel, {
-      heightRatio: 0.5,
       type: 'loop',
-      autoplay: true,
+      grid: {
+        rows: 2,
+        cols: 3,
+        gap: {
+          row: '1rem',
+          col: '1rem',
+        },
+      },
     }).mount();
   })
 
@@ -42,6 +48,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('website-carrossel').classList.add('active')
 
-
 });
-
