@@ -1,15 +1,27 @@
+.menu-topo__fundo {
+    width: 100vw;
+    height: 10vmin;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+
 .menu-topo {
     position: fixed;
-    top: 5%;
+    top: 3%;
     left: 90%;
-
     z-index: 2;
 }
+
 
 .menu-barras {
     font-size: clamp(1.5rem, 3vh, 3rem);
     transition: transform 0.8s;
     cursor: pointer;
+    z-index: 2;
 }
 
 .menu-barras.aberto {
@@ -46,6 +58,12 @@
     overflow: hidden;
 }
 
+.cabecalho__botao-clicavel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .cabecalho__botao:hover {
     border-radius: 16px;
     background-color: var(--cor-destaque);
@@ -59,3 +77,4 @@
 .cabecalho__botao:hover .cabecalho__botao-texto {
     display: inline-block;
 }
+

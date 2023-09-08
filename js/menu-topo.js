@@ -9,7 +9,9 @@ menuAbrir.addEventListener('click', () => {
 
 const botoes = document.querySelectorAll('.cabecalho__botao');
 
-botoes.forEach(botao => {
+const botoesClicavel = document.querySelectorAll('.cabecalho__botao-clicavel')
+
+botoesClicavel.forEach(botao => {
     botao.addEventListener('click', (event) => {
         event.preventDefault()
 
