@@ -4,7 +4,6 @@ window.addEventListener("scroll", () => {
 
     if(scrollY < 50) {
         barraMenu.style.display = "none"
-        console.log("scroll")
     } else {
         barraMenu.style.display = "flex"
     }

@@ -18,10 +18,11 @@
 .educacao__lista {
     display: flex;
     flex-direction: column;
+
 }
 
 .educacao__lista-item {
-    margin: 3vmin;
+    margin: 3vmin 0;
 }
 
 .educacao__lista__titulo {
@@ -41,6 +42,7 @@
 .educacao-lista__data {
     display: flex;
     column-gap: 1%;
+    margin-bottom: 1.5%;
 }
 
 .educacao-lista__data__icone {
@@ -50,6 +52,7 @@
 .educacao-lista__item__titulo {
     font-size: clamp(1vmin, 2.5vmin, 2.5vmin);
     font-weight: bold;
+    margin-bottom: 1%;
 }
 
 .educacao__botao {

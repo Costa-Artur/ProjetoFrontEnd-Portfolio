@@ -6,6 +6,9 @@
 
 .contato__container {
     width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contato__lista {
@@ -74,4 +77,40 @@
 
 .contato__rede:hover .icone__marca {
     color: var(--fonte-botoes-destaque);
+}
+
+.disabled {
+    background-color: rgb(97, 97, 97);
+}
+
+.success {
+    background-color: rgb(32, 77, 32);
+}
+
+.error {
+    background-color: rgb(83, 13, 13);
+}
+
+.snackbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 3%;
+    font-size: clamp(2rem, 2vh, 3rem);
+    z-index: 10;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    text-align: center;
+    font-weight: bold;
+}
+
+.snackbar.success {
+    background-color: rgb(32, 77, 32);
+}
+
+.snackbar.error {
+    background-color: rgb(83, 13, 13);
 }

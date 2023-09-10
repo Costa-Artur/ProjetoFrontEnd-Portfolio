@@ -72,11 +72,12 @@
 
 .botao-custom {
     background-color: var(--cor-destaque);
-    color: #FFFFFF;
+    color: black;
     padding: 50% 60%;
     margin: 0 50%;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: clamp(1rem, 2.5vmin, 2rem);
+    font-size: clamp(1.5rem, 3vmin, 2rem);
     border: none;
 }
 

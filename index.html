@@ -32,8 +32,6 @@
   </head>
   <body>
 
-    
-
     <header class="menu-topo">
       <nav >
         <ul class="cabecalho">
@@ -187,9 +185,9 @@
                     <button class="botao-custom">
                       <i class="fa-solid fa-up-right-from-square"></i>
                     </button>
-                    <button class="botao-custom">
+                    <a class="botao-custom" href="https://github.com/Costa-Artur/ProjetoFrontEnd-Portfolio">
                       <i class="fa-brands fa-github"></i>
-                    </button>
+                    </a>
                   </div>
                 </li>
                 <li class="splide__slide">
@@ -203,9 +201,9 @@
                     <button class="botao-custom">
                       <i class="fa-solid fa-up-right-from-square"></i>
                     </button>
-                    <button class="botao-custom">
+                    <a class="botao-custom" href="https://github.com/Costa-Artur/ProjetoFrontEnd-Portfolio">
                       <i class="fa-brands fa-github"></i>
-                    </button>
+                    </a>
                   </div>
                 </li>
                 <li class="splide__slide">
@@ -219,9 +217,9 @@
                     <button class="botao-custom">
                       <i class="fa-solid fa-up-right-from-square"></i>
                     </button>
-                    <button class="botao-custom">
+                    <a class="botao-custom" href="https://github.com/Costa-Artur/ProjetoFrontEnd-Portfolio">
                       <i class="fa-brands fa-github"></i>
-                    </button>
+                    </a>
                   </div>
                 </li>
                 <li class="splide__slide">
@@ -816,7 +814,12 @@
               </div>
             </li>
           </ul>
-          <form class="contato__formulario" action="https://formsubmit.co/arturc.desouza@gmail.com" method="POST">
+          <form class="contato__formulario" action="https://formsubmit.co/ajax/arturc.desouza@gmail.com" method="POST"
+          data-form
+          >
+          <div class="snackbar">
+            <p class="snackbar-message" id="snackbar-message">Teste</p>
+          </div>
             <input
               type="text"
               name="nome"
@@ -864,7 +867,7 @@
             ></textarea>
 
             
-          <input type="submit" value="ENVIAR" class="contato__botao botao-principal--cor--principal botao"  />
+          <button type="submit"  class="contato__botao botao-principal--cor--principal botao" data-button> ENVIAR</button>
           </form>
         </div>
         <div class="contato__botoes">
@@ -912,5 +915,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
     <script src="./js/carrossel-splide.js"></script>
     <script src="./js/menu-topo.js"></script>
     <script src="/js/barra-menu.js"></script>
+    <script src="/js/formulario.js"></script>
   </body>
 </html>
