@@ -30,7 +30,7 @@ class FormSubmit {
     }   
 
     displaySuccess() {
-        this.displaySnackbar("Não foi possível enviar a mensagem.", false);
+        this.displaySnackbar("Mensagem enviada com sucesso.", true);
         setTimeout(() => {
             this.formButton.innerHTML = "ENVIAR";
             this.formButton.classList.remove("success");
