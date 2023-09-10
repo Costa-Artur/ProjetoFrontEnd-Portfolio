@@ -3,8 +3,8 @@ window.addEventListener("scroll", () => {
     const scrollY = window.scrollY
 
     if(scrollY < 50) {
-        barraMenu.style.display = "none"
+        barraMenu.style.transform = "translateY(-100%)"
     } else {
-        barraMenu.style.display = "flex"
+        barraMenu.style.transform = "translateY(0)"
     }
 })
